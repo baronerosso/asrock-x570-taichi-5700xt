@@ -86,7 +86,7 @@
 			<key>ResetHwSig</key>
 			<false/>
 			<key>ResetLogoStatus</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>Booter</key>
@@ -186,6 +186,96 @@
 				<key>layout-id</key>
 				<data>AQAAAA==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,3,1/0,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Navi 10 XL Upstream Port of PCI Express Switch</string>
+				<key>device-id</key>
+				<data>FHg=</data>
+				<key>vendor-id</key>
+				<data>EAI=</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,3,1/0,0/0,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Navi 10 XL Downstream Port of PCI Express Switch</string>
+				<key>device-id</key>
+				<data>FHk=</data>
+				<key>vendor-id</key>
+				<data>EAI=</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,3,1/0,0/0,0/0,0</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>model</key>
+				<string>Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]</string>
+				<key>device-id</key>
+				<data>cx8=</data>
+				<key>vendor-id</key>
+				<data>EAI=</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,3,1/0,0/0,0/0,1</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>Navi 10 HDMI Audio</string>
+				<key>device-id</key>
+				<data>qzg=</data>
+				<key>vendor-id</key>
+				<data>EAI=</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)
+</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQAAAA==</data>
+				<key>Comment</key>
+				<string>storage</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)
+</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQAAAA==</data>
+				<key>Comment</key>
+				<string>storage</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0x9,0x0)/Pci(0x0,0x0)
+</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQAAAA==</data>
+				<key>Comment</key>
+				<string>storage</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0xA,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQAAAA==</data>
+				<key>Comment</key>
+				<string>storage</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/Pci(0x3,0x0)/Pci(0x0,0x0)/Pci(0x5,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQ==</data>
+				<key>Comment</key>
+				<string>eternet</string>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -274,7 +364,7 @@
 				<key>Comment</key>
 				<string>AppleMCEReporter disabler</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -308,7 +398,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>Arch</key>
@@ -344,7 +434,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>Arch</key>
@@ -398,7 +488,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/itlwm</string>
 				<key>Arch</key>
@@ -1772,7 +1862,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>6</integer>
+			<integer>8</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
@@ -1796,7 +1886,7 @@
 				<key>Comment</key>
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Path</key>
@@ -1829,7 +1919,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera</string>
+				<string>keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1900,11 +1990,11 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>0000000000</string>
+			<string>00000000000</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>EjRWeJAS</data>
+			<data>ASNFZ4kS</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1912,9 +2002,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>0000000000000000</string>
+			<string>0000000</string>
 			<key>SystemUUID</key>
-			<string>0000000000000000</string>
+			<string>00000000000000000</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
