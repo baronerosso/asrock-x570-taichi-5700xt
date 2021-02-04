@@ -9,5 +9,4 @@ Here an handcrafted solution, https://github.com/baronerosso/asrock-x570-taichi-
 https://www.youtube.com/watch?v=qL_ZswUSUOg
 
 NEWS!! Try this in x570 Taichi UEFI
-
-https://imgur.com/VQbpqqa
+![GitHub Logo](https://i.imgur.com/VQbpqqa.png)
